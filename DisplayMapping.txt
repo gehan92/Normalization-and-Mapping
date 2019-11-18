@@ -1,0 +1,28 @@
+ Bank
+PKbankid  |   PKempid  |   bankname  |   email  |   tp  |  
+
+
+ R_has
+PKbranchid  |   PKbankid  |  
+
+
+ Branch
+PKbranchid  |   branchname  |   district  |   BRtp  |   BRemail  |  
+
+
+ User
+PKuserid  |   username  |   district  |   usertp  |   useremail  |  
+
+
+ employee
+PKempid  |   empname  |   district  |   emptp  |   empemail  |  
+
+
+ School
+PKschoolid  |   schoolname  |   schoolemail  |   schooltp  |  
+
+
+ Clz
+PKclzid  |   clzname   |   clztp  |  
+
+

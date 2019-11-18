@@ -1,0 +1,9 @@
+.Bank;@m;@n;R_has;.Branch;[PK]bankid;bankname;[MV]tp;email 
+.Branch;@n;@m;R_has;.Bank;[PK]branchid;branchname;district;BRtp;BRemail
+.User;@1;@1;R_has;.Bank;[PK]userid;username;district;usertp;useremail
+.Branch;@1;@1;R_has;.User;[PK]branchid;branchname;district;BRtp;BRemail
+.employee;@m;@1;R_has;.Bank;[PK]empid;empname;district;emptp;empemail
+.Bank;@1;@1;R_has;.User;[PK]bankid;bankname;[MV]tp;email
+.Bank;@1;@m;R_has;.employee;[PK]bankid;bankname;[MV]tp;email  
+.School;@1;@1;R_has;.Clz;[PK]schoolid;schoolname;[MV]schooltp;schoolemail
+.Clz;@1;@1;R_has;.School;[PK]clzid;[MV]clztp;clzname 

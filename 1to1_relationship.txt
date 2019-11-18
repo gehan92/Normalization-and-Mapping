@@ -1,0 +1,7 @@
+[[PK]bankid, bankname, [MV]tp, email, [PK]empid, .Bank]
+[[PK]branchid, R_has, [PK]bankid]
+[[PK]branchid, branchname, district, BRtp, BRemail, .Branch]
+[[PK]userid, username, district, usertp, useremail, .User]
+[[PK]empid, empname, district, emptp, empemail, .employee]
+[[PK]schoolid, schoolname, [MV]schooltp, schoolemail, .School]
+[[PK]clzid, [MV]clztp, clzname , .Clz]
